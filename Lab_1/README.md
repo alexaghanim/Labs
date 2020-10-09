@@ -12,3 +12,4 @@
 ***
 **9.** Зміни відсутні тому що веб-версія не синхронізована з локальною, для того щоб синхронізувати використовую команду git pull origin main.
 ***
+**10.** ![alt text](https://www.pngitem.com/pimgs/m/535-5353352_bongocat-bongo-cat-meme-white-pink-cute-funny.png)
