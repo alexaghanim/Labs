@@ -17,6 +17,7 @@ def main(text):
     print(common.get_current_platform())
     if text:
         print("З консолі було передано аргумент\n", 10*"=", f">> {text} <<", 10*"=")
+    
 
 
 def how_to_write_logs():
@@ -31,3 +32,4 @@ if __name__ == '__main__':
         how_to_write_logs()
     else:
         main(args.opt)
+    common.truefalse(True)
