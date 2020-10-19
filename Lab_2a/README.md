@@ -1,4 +1,5 @@
 #Labs 
+
 ***
 **1.** This program execute that we are in __main__ file and data and time settings of linux.
 ***
@@ -11,6 +12,6 @@
 ***
 |Lab   |Link          |
 |------|:------------:|
-|**1.|`https://github.com/alexsprynskyi/Labs/tree/main/Lab_1`|
+|1.|`https://github.com/alexsprynskyi/Labs/tree/main/Lab_1`|
 |2a.|`https://github.com/alexsprynskyi/Labs/tree/main/Lab_2a`|
 ***
