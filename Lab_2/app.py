@@ -20,7 +20,10 @@ def check_time(d):
     except KeyError:
         print("No date in response!!!")
         raise KeyError
-
+    try: 
+    	print("Good " + home_work(d['time']))
+    except RuntimeError as e:
+    	print()
 
 def main(url=''):
     if not url:
@@ -39,11 +42,15 @@ def main(url=''):
     return True
 
 
-def home_work():
+def home_work(currenttime):
     # Ваш захист
-    pass
-
-
+	if 'AM' in currenttime:
+		return 'Day'
+	elif 'PM' in currenttime:
+		return 'Night'
+	else: 
+	     raise RuntimeError("time haven't numbers")
+	
 if __name__ == "__main__":
     a = "="*40
     print(a + "\nРезультат без параметрів: ")

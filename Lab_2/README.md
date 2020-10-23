@@ -5,3 +5,5 @@
 *** 
 **4.** `Create app.py and test code from site code Results : ======================================== Результат без параметрів: No URL passed to function ======================================== Результат з правильною URL:  Time is:  01:45:23 PM Date is:  10-22-2020`
 ***
+**8.** Write code to check AM/PM and print Good "day" or night"
+***
