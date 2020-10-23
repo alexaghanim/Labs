@@ -11,3 +11,5 @@
 ***
 **10.** To get results and move it to results.txt use command `python3.8 app.py > results.txt` to append it use `python3.8 app.py >> results.txt`
 ***
+**13.** Commited changes into Make file 
+***
