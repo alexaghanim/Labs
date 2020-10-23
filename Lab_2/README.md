@@ -7,3 +7,7 @@
 ***
 **8.** Write code to check AM/PM and print Good "day" or night"
 ***
+**9.** Write a test which check function
+***
+**10.** To get results and move it to results.txt use command `python3.8 app.py > results.txt` to append it use `python3.8 app.py >> results.txt`
+***
