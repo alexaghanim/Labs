@@ -2,5 +2,5 @@
 ***
 **1.** Initialized pipenv environment by command `pipenv --python 3.8` and install django `pipenv install django`
 ***
-![](Pictures/1st.png)
+[1st]:(Pictures/1st.png)
 ***
