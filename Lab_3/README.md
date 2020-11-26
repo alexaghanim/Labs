@@ -9,3 +9,7 @@
 ***
 **6.** Create file `main/urls.py`
 ***
+**8.** Create 2 types pages 
+***
+**10.** Site work fine 
+***
