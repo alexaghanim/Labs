@@ -11,5 +11,5 @@
 ***
 **8.** Create 2 types pages 
 ***
-**10.** Site work fine 
+**10.** Site work fine main page appear, in another window start `monitoring.py` program, logs record to `server.logs`
 ***
