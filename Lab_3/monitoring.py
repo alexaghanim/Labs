@@ -4,6 +4,8 @@ import logging
 
 import time
 
+import sys
+
 logging.basicConfig(
     filename="server.log",
     filemode='a',
