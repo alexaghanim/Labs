@@ -27,7 +27,7 @@ jobs:
         - cd ./Lab_4/
       script:
         - docker build -t alexsprynskyi/la-bs:django-travis .
-        - docker build -t sashakovalchuk/la-bs:monitoring-travis --file Dockerfile.monitor . 
+        - docker build -t alexsprynskyi/la-bs:monitoring-travis --file Dockerfile.monitor . 
         - docker images
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push sashakovalchuk/lab4:django-travis; else echo "PR skip deploy"; fi
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push sashakovalchuk/lab4:monitor-travis; else echo "PR skip deploy"; fi
