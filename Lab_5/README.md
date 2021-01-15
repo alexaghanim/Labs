@@ -15,7 +15,7 @@
 ***
 **10.** Cleaned all resources in project using `make docker-prune`
 ***
-**11.**Created pushing images to the Dockerhub `docker-push: @docker push $(REPO):app \&& docker push $(REPO):tests`
+**11.** Created pushing images to the Dockerhub `docker-push: @docker push $(REPO):app \&& docker push $(REPO):tests`
 ***
 **12.** Created rule witch delete images `images-delete: @sudo docker image rm --force $(shell sudo docker images -q)`
 ***
