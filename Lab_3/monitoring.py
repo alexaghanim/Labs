@@ -7,7 +7,7 @@ import time
 import sys
 
 logging.basicConfig(
-    filename="logs/server.log",
+    filename="server.log",
     filemode='a',
     level=logging.INFO,
     format='{levelname} {asctime} {name} : {message}',
@@ -29,6 +29,8 @@ def main(url):
         except requests.exceptions.ConnectionError as e:
             logging.error("Unable to conect to the server: " + str(e))
 
+        if '--once' in sys.argv:
+            break
         time.sleep(60)
 
 if __name__ == '__main__':
