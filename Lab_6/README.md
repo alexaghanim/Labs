@@ -11,4 +11,4 @@
 ***
 **6.** Rewrite builds Lab: 2,4,5.
 ***
-**7.** [Link to Travis CI]()
+**7.** [Link to Travis CI](https://travis-ci.org/github/alexsprynskyi/Labs)
