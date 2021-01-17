@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: alexsprynskyi/la-bs:django-travis
+    image: alexsprynskyi/lab-5:django-travis
     container_name: django-travis
     networks: 
       - public
@@ -14,7 +14,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.site
-    image: alexsprynskyi/la-bs:monitor-travis
+    image: alexsprynskyi/lab-5:monitor-travis
     container_name: django-monitor
     networks: 
       - public
